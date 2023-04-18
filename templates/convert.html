@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block converted %}
+<p id="converted-price">
+    {{converted_price}}
+</p>
+{% endblock %}
+
+{% block content %}
+<form action="/validate" method="post">
+    <p><input name="convert-from" placeholder="Base Currency"></p>
+    <p><input name="convert-to" placeholder="Desired Currency"></p>
+    <p><input name="amount" placeholder="Amount"></p>
+    <button>Convert</button>
+</form>
+{% endblock %}
