@@ -55,4 +55,4 @@ Answer the following questions below:
 
 - What does Flask's `jsonify()` do?
 
-  - jsonify() is a way to respond to a request in which data is parsed and sent back in a json format return jsonify({'score': '17'})
+  - jsonify() is a way to respond to a request in which dataa is parsed and sent back in a json format return jsonify({'score': '17'})
